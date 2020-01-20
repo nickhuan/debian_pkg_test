@@ -1,0 +1,12 @@
+Source: ros-indigo-debian-pkg-test
+Section: misc
+Priority: optional
+Maintainer: huan <huan@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), 
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-debian-pkg-test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: The debian_pkg_test package
